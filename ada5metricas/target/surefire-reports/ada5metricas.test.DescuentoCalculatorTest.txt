@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: ada5metricas.test.DescuentoCalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.118 s <<< FAILURE! -- in ada5metricas.test.DescuentoCalculatorTest
+ada5metricas.test.DescuentoCalculatorTest.testLimites -- Time elapsed: 0.060 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: java.lang.Double@6d763516<9.0E16> but was: java.lang.String@52bf72b5<9.0E16>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at ada5metricas.test.DescuentoCalculatorTest.testLimites(DescuentoCalculatorTest.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
