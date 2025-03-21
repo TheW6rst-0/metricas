@@ -39,4 +39,4 @@ jobs:
         working-directory: ada5metricas  # Se ejecuta en la carpeta correcta
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=TheW6rst-0_metricas -DskipTests=true
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=TheW6rst-0_metricas -Dsonar.organization=your-organization-key -DskipTests=true
